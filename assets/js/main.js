@@ -118,7 +118,7 @@
 
   const swiper2 = new Swiper('.home-slider-ctm', {
     loop: true,
-    spaceBetween: 34,
+    spaceBetween: 15,
     slidesPerView: 2,
     pagination: false,
     navigation: false,
