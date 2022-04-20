@@ -6103,8 +6103,7 @@ img {
 .home-slider-box .img-in-box {
   max-width    : 200px;
   width        : 100%;
-  max-height   : 215px;
-  height       : 100%;
+  height       : 215px;
   border-radius: 8px;
   margin       : auto;
   border       : 2px solid #fff;
@@ -6128,8 +6127,7 @@ img {
   padding      : 4px 9px;
   border       : 1px solid #fff;
   border-radius: 50px;
-  max-width    : 180px;
-  width        : 100%;
+  width        : calc(100% - 30px);
   margin       : 0px auto;
   position     : absolute;
   bottom       : -17px;
@@ -6138,4 +6136,8 @@ img {
   white-space  : nowrap;
   overflow     : hidden;
   text-overflow: ellipsis;
+}
+
+.newangels-slider .some-img {
+  margin: 0 10px;
 }
