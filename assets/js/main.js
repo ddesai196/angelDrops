@@ -103,30 +103,52 @@
   $(window).on('resize', function () {
     checkdevice();
   });
-  const swiper = new Swiper('.home-slider-ctm', {
-    loop: true,
-    spaceBetween: 16,
-    slidesPerView: 6,
-    pagination: false,
-    navigation: false,
-    // autoplay: {
-    //   delay: 2000,
-    // },
-    scrollbar: false,
-    slideToClickedSlide: true,
-  });
+  // const swiper = new Swiper('.home-slider-ctm', {
+  //   loop: true,
+  //   spaceBetween: 16,
+  //   slidesPerView: 6,
+  //   pagination: false,
+  //   navigation: false,
+  //   // autoplay: {
+  //   //   delay: 2000,
+  //   // },
+  //   scrollbar: false,
+  //   slideToClickedSlide: true,
+  // });
 
-  const swiper2 = new Swiper('.home-slider-ctm', {
-    loop: true,
-    spaceBetween: 15,
-    slidesPerView: 2,
-    pagination: false,
-    navigation: false,
-    // autoplay: {
-    //   delay: 2000,
-    // },
-    scrollbar: false,
-    slideToClickedSlide: true,
+  $('.newangels-slider').slick({
+    lazyLoad: 'ondemand',
+    dots: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
 
   var CartPlusMinus = $(".cart-plus-minus");
