@@ -5979,15 +5979,15 @@ img {
   font-size    : 20px;
   color        : #ffffff;
   font-weight  : 600;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 
 /* Live User */
 .live-users {
-  margin-bottom: 22px;
+  margin-bottom: 12px;
 }
 
-.live-list {
+/* .live-list {
   display       : -webkit-box;
   overflow-x    : auto;
   overflow-y    : hidden;
@@ -5997,11 +5997,11 @@ img {
 .live-list::-webkit-scrollbar {
   width : 0;
   height: 0;
-}
+} */
 
 .live-users .live-person {
   position     : relative;
-  margin-right : 15px;
+  margin       : 0 7.5px;
   max-width    : 49.32px;
   width        : 100%;
   max-height   : 53.61px;
@@ -6027,6 +6027,7 @@ img {
   text-align    : center;
   border-radius : 50px;
   font-size     : 10.72px;
+  line-height   : 16.08px;
   text-transform: uppercase;
   font-weight   : 600;
   color         : #36171E;
@@ -6034,41 +6035,9 @@ img {
   margin        : -8px 5px;
 }
 
-/* .live-users .home-slider-box h4 {
-  background    : #F7C662;
-  background    : -webkit-linear-gradient(to right, #F7C662, #FFFC82, #E1AB18);
-  background    : linear-gradient(to right, #F7C662, #FFFC82, #E1AB18);
-  color         : #36171E;
-  font-weight   : 600;
-  text-transform: uppercase;
-  box-sizing    : border-box;
-  border-radius : 50px;
-  padding       : 2px 8px;
-  font-size     : 10.72px;
-  margin        : 0 auto;
-  margin-top    : -20px;
-  position      : relative;
-  text-align    : center;
-  z-index       : 2;
-  height        : 17.16px;
-  width         : 38.6px;
-  display       : flex;
-  align-items   : center;
-  position      : absolute;
-  bottom        : -7px;
-  left          : 0;
-  right         : 0;
+.slick-list {
+  padding-bottom: 10px;
 }
-
-.live-users .img-in-box {
-  border       : 1.07px solid #E1AB18;
-  padding      : 3px;
-  border-radius: 8.58px;
-}
-
-.live-users .img-in-box img {
-  border-radius: 6.43px;
-} */
 
 /* Trending Angels */
 .trendingAngels .full-image {
@@ -6139,5 +6108,192 @@ img {
 }
 
 .newangels-slider .some-img {
+  margin: 0 10px;
+}
+
+/* Trending */
+.trending {
+  margin-top: 30px;
+}
+
+.home-slider-box {
+  position  : relative;
+  text-align: center;
+}
+
+.trending .slick-slide {
+  padding-bottom: 10px;
+}
+
+.home-slider-box .img-in-box {
+  max-width    : 200px;
+  width        : 100%;
+  height       : 215px;
+  border-radius: 8px;
+  margin       : auto;
+  border       : 2px solid #fff;
+  overflow     : hidden;
+}
+
+.home-slider-box .img-in-box img {
+  width          : 100%;
+  height         : 100%;
+  object-fit     : cover;
+  object-position: center;
+}
+
+.home-slider-box p {
+  font-size    : 16px;
+  font-weight  : 500;
+  color        : #4D2D52;
+  background   : #F7C662;
+  background   : -webkit-linear-gradient(to right, #F7C662, #FFFC82, #E1AB18);
+  background   : linear-gradient(to right, #F7C662, #FFFC82, #E1AB18);
+  padding      : 4px 9px;
+  border       : 1px solid #fff;
+  border-radius: 50px;
+  width        : calc(100% - 30px);
+  margin       : 0px auto;
+  position     : absolute;
+  bottom       : -17px;
+  left         : 0;
+  right        : 0;
+  white-space  : nowrap;
+  overflow     : hidden;
+  text-overflow: ellipsis;
+}
+
+.trending-slider .some-img {
+  margin: 0 10px;
+}
+
+/* Super Live */
+.superlive {
+  margin-top: 30px;
+}
+
+.superlive .livemodelmain-box {
+  position     : relative;
+  max-width    : 163px;
+  width        : 100%;
+  max-height   : 96px;
+  height       : 100%;
+  border-radius: 10px;
+  overflow     : hidden;
+  margin       : 6px;
+}
+
+.superlive .livemodelmain-box .pics {
+  width          : 100%;
+  height         : 100%;
+  object-fit     : cover;
+  object-position: top left;
+}
+
+.superlive .livemodelmain-box .shape-golden {
+  position: absolute;
+  width   : 100%;
+  height  : 100%;
+}
+
+.superlive .livemodelmain-box .shape-golden img {
+  object-fit     : contain;
+  width          : 100%;
+  height         : 100%;
+  object-position: right;
+}
+
+.shape-golden .model-btn {
+  position        : absolute;
+  right           : 7px;
+  top             : 7px;
+  font-size       : 7px;
+  font-weight     : 700;
+  padding         : 3px 7px;
+  background-color: transparent;
+  border-radius   : 50px;
+}
+
+.shape-golden .time-name {
+  position  : absolute;
+  text-align: right;
+  right     : 7px;
+  bottom    : 7px;
+}
+
+.shape-golden .time-name .time {
+  font-weight: 500;
+  font-size  : 9px;
+  line-height: 14px;
+  color      : #36171E;
+  margin     : 0;
+}
+
+.shape-golden .time-name .name {
+  font-weight   : 600;
+  font-size     : 15px;
+  line-height   : 22px;
+  color         : #36171E;
+  margin        : 0;
+  white-space   : nowrap;
+  overflow      : hidden;
+  text-overflow : ellipsis;
+  max-width     : 80px;
+  text-transform: capitalize;
+}
+
+/* Trending Photos */
+.trendingphotos {
+  margin-top: 30px;
+}
+
+.home-slider-box {
+  position  : relative;
+  text-align: center;
+}
+
+.trendingphotos .slick-slide {
+  padding-bottom: 10px;
+}
+
+.home-slider-box .img-in-box {
+  max-width    : 200px;
+  width        : 100%;
+  height       : 215px;
+  border-radius: 8px;
+  margin       : auto;
+  border       : 2px solid #fff;
+  overflow     : hidden;
+}
+
+.home-slider-box .img-in-box img {
+  width          : 100%;
+  height         : 100%;
+  object-fit     : cover;
+  object-position: center;
+}
+
+.home-slider-box p {
+  font-size    : 16px;
+  font-weight  : 500;
+  color        : #4D2D52;
+  background   : #F7C662;
+  background   : -webkit-linear-gradient(to right, #F7C662, #FFFC82, #E1AB18);
+  background   : linear-gradient(to right, #F7C662, #FFFC82, #E1AB18);
+  padding      : 4px 9px;
+  border       : 1px solid #fff;
+  border-radius: 50px;
+  width        : calc(100% - 30px);
+  margin       : 0px auto;
+  position     : absolute;
+  bottom       : -17px;
+  left         : 0;
+  right        : 0;
+  white-space  : nowrap;
+  overflow     : hidden;
+  text-overflow: ellipsis;
+}
+
+.trendingphotos-slider .some-img {
   margin: 0 10px;
 }

@@ -116,7 +116,15 @@
   //   slideToClickedSlide: true,
   // });
 
-  $('.newangels-slider').slick({
+  $('.live-list').slick({
+    dots: false,
+    arrows: false,
+    initialSlide: 0,
+    infinite: false,
+    slidesToScroll: 1,
+  });
+
+  $('.homeangels-carousel').slick({
     lazyLoad: 'ondemand',
     dots: false,
     infinite: false,
