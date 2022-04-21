@@ -6335,8 +6335,78 @@ img {
   color     : #999;
 }
 
-
-
 .file-upload {
   display: none;
+}
+
+/* History */
+.history-header-section header {
+  background: #2c1619;
+}
+
+.history-page .page-title {
+  margin-top: 30px;
+}
+
+.history-box {
+  margin: 10px auto;
+}
+
+.history-page .name-pricing {
+  padding      : 0px 0px 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.history-page .profile-img {
+  min-width    : 55px;
+  max-width    : 55px;
+  width        : 100%;
+  min-height   : 55px;
+  max-height   : 55px;
+  height       : 100%;
+  border-radius: 12px;
+  border       : 3px solid #e2b554;
+  overflow     : hidden;
+  margin-right : 15px;
+}
+
+.history-page .profile-img img {
+  object-fit     : cover;
+  object-position: top center;
+}
+
+.history-page .history-detail .name {
+  margin       : 0;
+  font-weight  : 600;
+  font-size    : 20px;
+  line-height  : 30px;
+  color        : #FFFFFF;
+  max-width    : 240px;
+  white-space  : nowrap;
+  overflow     : hidden;
+  text-overflow: ellipsis;
+}
+
+.history-page .history-detail .detail {
+  font-weight  : 400;
+  font-size    : 12px;
+  line-height  : 18px;
+  color        : rgba(255, 255, 255, 0.7);
+  max-width    : 240px;
+  white-space  : nowrap;
+  overflow     : hidden;
+  text-overflow: ellipsis;
+}
+
+.history-page .pricing img {
+  width       : 26px;
+  height      : 26px;
+  margin-right: 6px;
+}
+
+.history-page .pricing p {
+  font-weight: 600;
+  font-size  : 18px;
+  line-height: 27px;
+  color      : #FFFFFF;
 }
