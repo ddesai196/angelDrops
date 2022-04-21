@@ -37,93 +37,99 @@
         <div class="preloader-area-wrap">
             <div class="spinner d-flex justify-content-center align-items-center h-100">
                 <div class="img-loader">
-                    <img src="assets/img/login.svg" >
+                    <img src="assets/img/login.svg">
                 </div>
             </div>
         </div>
     </div>
     <!--====================  End of preloader area  ====================-->
-    <div class="body-wrapper-bg">
-    <div class="body-wrapper space-pb--30">
-        <header class="sticker">
-            <div class="header-wrapper">
-                <div class="container space-y--15">
-                    <div class="row align-items-center">
-                        <div class="col-6">
-                            <button class="header-menu-trigger">
-                                <img src="assets/img/arrow-left.png">
-                            </button>
-                        </div>
-                        <div class="col-6 text-right">
-                            <!-- header menu trigger -->
-                            <button class="header-menu-trigger" id="header-menu-trigger">
-                                <img src="assets/img/menu-2.svg" class="injectable" alt="">
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="offcanvas-menu" id="offcanvas-menu">
-            <div class="offcanvas-navigation-wrapper">
-                <ul class="offcanvas-navigation">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="profile.html">My Profile</a></li>
-                    <li><a href="buy-coins.html">My Coins</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="terms-conditions.html">Terms & Condition</a></li>
-                    <li><a href="terms-conditions.html">Privacy Policy</a></li>
-                    <li><a href="terms-conditions.html">Refund, Return & Cancellation Policy</a></li>
-                    <li><a href="terms-conditions.html">Community Guideline</a></li>
-                    <li><a href="contact-us.html">Contact us</a></li>
-                    <li><a href="login.html">Log Out</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- auth page body -->
-        <div class="home-page-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="page-view text-center">
-                            <h4 class="d-block text-left">Profile</h4>
-                            <div class="position-relative profile-upload-box">
-                                <img src="assets/img/profile.png" class="profile-img" >
-                                <div class="p-image">
-                                    <i class="fa fa-camera upload-button"></i>
-                                    <input class="file-upload" type="file" accept="image/*"/>
+    <div class="body-wrapper-bg profile-page">
+        <div class="body-wrapper">
+            <header class="sticker sticky-top">
+                <div class="header-wrapper">
+                    <div class="container space-y--15">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <button class="header-menu-trigger">
+                                            <img src="assets/img/arrow-left.png">
+                                        </button>
+                                    </div>
+                                    <div class="page-title">
+                                        <p>My Profile</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="auth-form text-center auth-page-body mt-4">
-                            <form>
-                                <div class="field-wrapper mb-4">
-                                    <input type="text" name="text" id="" >
-                                    <div class="field-placeholder"><span>Full Name</span></div>
-                                </div>
-                                <div class="field-wrapper mb-4">
-                                    <input type="email" name="email" id="">
-                                    <div class="field-placeholder"><span>Email</span></div>
-                                </div>
-                                <div class="field-wrapper mb-4">
-                                    <input type="phone" name="phone" id="">
-                                    <div class="field-placeholder"><span>Phone No</span></div>
-                                </div>
-                                <button class="auth-form__button mt-3">Save</button>
-                            </form>
+                            <div class="col-6">
+                                <!-- header menu trigger -->
+                                <button class="header-menu-trigger ml-auto" id="header-menu-trigger">
+                                    <img src="assets/img/menu-2.svg" class="injectable" alt="">
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </header>
+            <div class="offcanvas-menu" id="offcanvas-menu">
+                <div class="offcanvas-navigation-wrapper">
+                    <ul class="offcanvas-navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="profile.html">My Profile</a></li>
+                        <li><a href="buy-coins.html">My Coins</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="terms-conditions.html">Terms & Condition</a></li>
+                        <li><a href="terms-conditions.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Refund, Return & Cancellation Policy</a></li>
+                        <li><a href="terms-conditions.html">Community Guideline</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                        <li><a href="login.html">Log Out</a></li>
+                    </ul>
+                </div>
             </div>
+
+
+            <!-- Profile Input Section -->
+            <section class="profile-input-section">
+                <div class="container">
+
+                    <div class="position-relative profile-upload-box">
+                        <img src="https://images.unsplash.com/photo-1645994743395-83d4b809c321?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                            class="profile-img">
+                        <div class="p-image">
+                            <i class="fa fa-camera upload-button"></i>
+                            <input class="file-upload" type="file" accept="image/*" />
+                        </div>
+                    </div>
+
+                    <div class="auth-form text-center auth-page-body mb-5">
+                        <form>
+                            <div class="field-wrapper mb-4">
+                                <input type="text" name="text" id="">
+                                <div class="field-placeholder"><span>Full Name</span></div>
+                            </div>
+                            <div class="field-wrapper mb-4">
+                                <input type="email" name="email" id="">
+                                <div class="field-placeholder"><span>Email</span></div>
+                            </div>
+                            <div class="field-wrapper mb-4">
+                                <input type="phone" name="phone" id="">
+                                <div class="field-placeholder"><span>Phone No</span></div>
+                            </div>
+                            <button class="auth-form__button mt-3 mb-5">Save</button>
+                        </form>
+                    </div>
+
+                </div>
+            </section>
         </div>
     </div>
-</div>
     <!-- JS ============================================ -->
     <!-- Modernizer JS -->
     <script src="assets/js/modernizr-2.8.3.min.js"></script>
     <!-- jQuery JS -->
-    <script src="assets/js/jquery.min.js"></script>  <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
 
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.min.js"></script>
@@ -135,9 +141,10 @@
     <!-- Plugins JS (Please remove the comment from below plugins.min.js for better website load performance and remove plugin js files from above) -->
     <!--
   <script src="assets/js/plugins/plugins.min.js"></script>
---><script>
-    videojs(document.querySelector('#my-video'));
-</script>
+-->
+    <script>
+        videojs(document.querySelector('#my-video'));
+    </script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
 </body>
