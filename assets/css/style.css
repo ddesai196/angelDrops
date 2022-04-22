@@ -5713,18 +5713,6 @@ img {
   margin-bottom: 12px;
 }
 
-/* .live-list {
-  display       : -webkit-box;
-  overflow-x    : auto;
-  overflow-y    : hidden;
-  padding-bottom: 10px;
-}
-
-.live-list::-webkit-scrollbar {
-  width : 0;
-  height: 0;
-} */
-
 .live-users .live-person {
   position     : relative;
   margin       : 0 7.5px;
@@ -6241,18 +6229,16 @@ img {
   margin-right: 12px;
 }
 
-.chat-area ul {
-  height    : calc(100vh - 140px);
-  overflow  : hidden;
-  overflow-y: auto;
-}
-
 .chat-area ul::-webkit-scrollbar {
   width: 0;
 }
 
 .chat-area ul li {
   list-style: none;
+}
+
+.chat-area {
+  padding-bottom: 80px;
 }
 
 .chat {
@@ -6309,6 +6295,15 @@ img {
 
 .chat-receiver .chat-picture {
   margin-right: auto;
+}
+
+.chat-submit {
+  position  : fixed;
+  bottom    : 0;
+  width     : 100%;
+  padding   : 15px;
+  left      : 0;
+  background: #2c1619;
 }
 
 .chat-submit .input-group {
