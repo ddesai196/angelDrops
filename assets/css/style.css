@@ -116,14 +116,14 @@ ul {
   list-style: outside none none;
 }
 
-select {
+/* select {
   padding-right      : 15px;
   background-image   : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' height='10px' width='15px'%3E%3Ctext x='0' y='10' fill='black'%3E%E2%96%BE%3C/text%3E%3C/svg%3E");
   background-repeat  : no-repeat;
   background-position: 107% 50%;
   -webkit-appearance : none;
   -moz-appearance    : none;
-}
+} */
 
 input:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
@@ -4576,12 +4576,16 @@ img {
 }
 
 .field-wrapper select {
-  border       : 1px solid rgba(255, 255, 255, 0.2);
-  padding      : 29px 15px 15px;
-  border-radius: 8px;
-  width        : 100%;
-  background   : rgba(255, 255, 255, 0.04);
-  color        : #fff;
+  border        : 1px solid #FFF68A;
+  padding       : 29px 15px 15px;
+  border-radius : 12px;
+  width         : 100%;
+  background    : rgba(255, 255, 255, 0.2);
+  color         : #fff;
+  font-weight   : 600;
+  font-size     : 16px;
+  line-height   : 28px;
+  letter-spacing: 0.04em;
 }
 
 .field-wrapper select option {
@@ -6054,14 +6058,14 @@ img {
   border-top-right-radius   : 25px;
 }
 
-.profile-upload-box {
+.profile-input-section .profile-upload-box {
   width : 138px;
   height: 138px;
   margin: 0 auto;
   top   : -85px;
 }
 
-.profile-img {
+.profile-input-section .profile-img {
   width          : 100%;
   height         : 100%;
   border-radius  : 12px;
@@ -6070,7 +6074,7 @@ img {
   object-position: top center;
 }
 
-.p-image {
+.profile-input-section .p-image {
   position       : absolute;
   bottom         : 0;
   left           : 50%;
@@ -6088,21 +6092,21 @@ img {
   justify-content: center;
 }
 
-.p-image:hover {
+.profile-input-section .p-image:hover {
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.upload-button {
+.profile-input-section .upload-button {
   font-size: 20px;
   color    : #3C1D24;
 }
 
-.upload-button:hover {
+.profile-input-section .upload-button:hover {
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   color     : #999;
 }
 
-.file-upload {
+.profile-input-section .file-upload {
   display: none;
 }
 
@@ -6364,4 +6368,22 @@ img {
   border     : 1px solid #E1AB18;
   margin-left: 15px;
   color      : #E1AB18;
+}
+
+/* Booking */
+.video-call-book .profile-upload-box {
+  width        : 181.29px;
+  height       : 194.8px;
+  border-radius: 12.6px;
+  overflow     : hidden;
+  margin       : auto;
+  border       : 3px solid #F7C662;
+
+}
+
+.video-call-book .profile-upload-box .profile-img {
+  width          : 100%;
+  height         : 100%;
+  object-fit     : cover;
+  object-position: top center;
 }
