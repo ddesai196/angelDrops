@@ -4589,12 +4589,16 @@ img {
 }
 
 .field-wrapper textarea {
-  border       : 1px solid rgba(255, 255, 255, 0.2);
-  padding      : 29px 12px 15px;
-  border-radius: 8px;
-  width        : 100%;
-  background   : rgba(255, 255, 255, 0.04);
-  color        : #fff;
+  border        : 1px solid #FFF68A;
+  padding       : 29px 15px 15px;
+  border-radius : 12px;
+  width         : 100%;
+  background    : rgba(255, 255, 255, 0.2);
+  color         : #fff;
+  font-weight   : 600;
+  font-size     : 16px;
+  line-height   : 28px;
+  letter-spacing: 0.04em;
 }
 
 .field-wrapper .field-placeholder span {
@@ -5283,12 +5287,12 @@ ul#myTab {
 }
 
 .page-view h4 {
+  margin-bottom: 30px;
   font-style   : normal;
-  font-weight  : 500;
+  font-weight  : 600;
   font-size    : 20px;
-  line-height  : 32px;
-  color        : #ffffff;
-  margin-bottom: 25px;
+  line-height  : 30px;
+  color        : #FFFFFF;
 }
 
 .terms-page p {
@@ -5334,25 +5338,33 @@ ul#myTab {
 }
 
 .contact-info a {
-  font-weight: 500;
-  font-size  : 20px;
-  line-height: 32px;
-  display    : flex;
-  align-items: center;
-  color      : #f7c662;
+  font-style   : normal;
+  font-weight  : 500;
+  font-size    : 20px;
+  line-height  : 32px;
+  color        : #FFFFFF;
+  margin-bottom: 25px;
 }
 
-.contact-info span {
-  font-size  : 14px;
-  line-height: 21px;
-  display    : flex;
-  align-items: center;
-  color      : rgba(255, 255, 255, 0.4);
+.contact-info a img {
+  width       : 46px;
+  height      : 46px;
+  margin-right: 15px;
 }
 
 .contact-info address {
-  font-size: 16px;
-  color    : #c7c7c7;
+  font-style : normal;
+  font-weight: 500;
+  font-size  : 14px;
+  line-height: 21px;
+  color      : #FFFFFF;
+  display    : flex;
+}
+
+.contact-info address img {
+  width       : 46px;
+  height      : 46px;
+  margin-right: 15px;
 }
 
 .circle {
@@ -6014,9 +6026,9 @@ img {
 
 /* Profile Page */
 .profile-page {
-  height             : 100%;
+  height             : calc(100vh - 57%);
   background-image   : url('https://images.unsplash.com/photo-1645994743414-dfc87c73b473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
-  background-size    : contain;
+  background-size    : cover;
   background-position: top center;
 }
 
