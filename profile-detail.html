@@ -45,17 +45,21 @@
     </div>
     <!--====================  End of preloader area  ====================-->
     <div class="body-wrapper-bg">
-        <div class="body-wrapper space-pb--30">
-            <header class="sticker">
+        <div class="body-wrapper">
+            <header class="sticker sticky-top">
                 <div class="header-wrapper">
                     <div class="container space-y--15">
-                        <div class="row align-items-center">
-                            <div class="col-6">
-                                <button class="header-menu-trigger">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-auto">
+                                <!-- <button class="header-menu-trigger">
                                     <img src="assets/img/arrow-left.png">
-                                </button>
+                                </button> -->
+                                <div class="profile-detail-info">
+                                    <p class="name">Prakriti saha</p>
+                                    <p class="role">Actor and Model</p>
+                                </div>
                             </div>
-                            <div class="col-6 text-right">
+                            <div class="col-auto text-right">
                                 <!-- header menu trigger -->
                                 <button class="header-menu-trigger" id="header-menu-trigger">
                                     <img src="assets/img/menu-2.svg" class="injectable" alt="">
@@ -82,250 +86,375 @@
                 </div>
             </div>
 
-            <!-- auth page body -->
-            <div class="">
-                <div class="poster-image">
-                    <img src="assets/img/video-poster.png">
-                    <ul class="rating-list">
-                        <li><button class="rating-btn"><img src="assets/img/star.png"> 1.5k</button></li>
-                        <li><button class="rating-btn"><img src="assets/img/users.png"> 223</button></li>
-                        <li><button class="rating-btn"><img src="assets/img/heart.png"> 12.5k</button></li>
-                        <li><button class="rating-btn"><img src="assets/img/image.png"> 103</button></li>
-                    </ul>
+            <section class="profile-details">
+                <div class="banner-img">
+                    <img src="https://images.unsplash.com/photo-1645994743414-dfc87c73b473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt="">
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="buttons-group">
-                                <a href="chat.html" class="link-button white-btn">Chat</a>
-                                <a href="video-profile.html" class="link-button white-btn">Video Call</a>
-                                <a href="video-profile.html" class="link-button white-btn">Personalized Video</a>
-                                <a href="buy-coins.html" class="link-button yellow-btn">Coins</a>
+
+                <div class="profile-detail-content">
+                    <div class="container">
+                        <div class="profile-page-info">
+                            <div class="profile-img">
+                                <img src="https://images.unsplash.com/photo-1645994743395-83d4b809c321?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                                    alt="">
+                                <div class="status-icon"></div>
                             </div>
-                            <div class="tabs-list pb-5">
-                                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
-                                            role="tab" aria-controls="home" aria-selected="true">Pictures</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
-                                            role="tab" aria-controls="profile" aria-selected="false">Videos</a>
-                                    </li>
-                                </ul>
-                                <div class="tab-content pb-4" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">
-                                        <div  class="picture-box">
-                                            <div class="position-relative picture-mini-box">
-                                                <div class="primium-access d-none">
-                                                    <img src="assets/img/premium-quality 1.png">
-                                                    <a class="primium-btn" href="pricing.html">View now</a>
-                                                </div>
-                                                <a data-fancybox="gallery" href="assets/img/01.png">
-                                                    <img src="assets/img/01.png">
-                                                </a>
-                                            </div>
-                                            <div class="picture-content-wrapper">
-                                                <p>I play nice but I bite</p>
-                                                <ul class="shering-icons-list">
-                                                    <li>
-                                                        <a href="#" class="heart active" >
-                                                            <img src="assets/img/heart-1.png" />
-                                                            <img src="assets/img/heart-1-filled.png">
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0)" class="comment" >
-                                                            <img src="assets/img/comment.png" />
-                                                        </a>
-                                                    </li>
-                                                    <li id="share-box">
-                                                        <a href="javascript:void(0)" id="shere-btn" class="shere-button" >
-                                                            <img src="assets/img/shere.png" />
-                                                        </a>
-                                                        <ul id="list">
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-facebook"></i>
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-twitter"></i>
 
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-instagram"></i>
-                                                              </a>
-                                                            </li>
-                                                          </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="picture-box">
-                                            <div class="position-relative picture-mini-box">
-                                                <div class="primium-access d-flex">
-                                                    <img src="assets/img/premium-quality 1.png">
-                                                    <a class="primium-btn" href="pricing.html">View now</a>
-                                                </div>
-                                                <a data-fancybox="gallery" href="assets/img/01.png">
-                                                    <img src="assets/img/01.png">
-                                                </a>
-                                            </div>
-                                            <div class="picture-content-wrapper">
-                                                <p>I play nice but I bite</p>
-                                                <ul class="shering-icons-list">
-                                                    <li>
-                                                        <a href="#" class="heart active" >
-                                                            <img src="assets/img/heart-1.png" />
-                                                            <img src="assets/img/heart-1-filled.png">
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0)" class="comment" >
-                                                            <img src="assets/img/comment.png" />
-                                                        </a>
-                                                    </li>
-                                                    <li id="share-box">
-                                                        <a href="javascript:void(0)" id="shere-btn" class="shere-button" >
-                                                            <img src="assets/img/shere.png" />
-                                                        </a>
-                                                        <ul id="list">
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-facebook"></i>
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-twitter"></i>
+                            <div class="follow-info">
+                                <button class="btn">+ Follow</button>
+                                <div class="number-info">
+                                    <p class="number">18</p>
+                                    <p class="text">total-post</p>
+                                </div>
+                                <div class="number-info">
+                                    <p class="number">26</p>
+                                    <p class="text">Photos</p>
+                                </div>
+                                <div class="number-info">
+                                    <p class="number">14</p>
+                                    <p class="text">Videos</p>
+                                </div>
+                                <div class="number-info">
+                                    <p class="number">1.2K</p>
+                                    <p class="text">Followers</p>
+                                </div>
+                            </div>
 
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-instagram"></i>
-                                                              </a>
-                                                            </li>
-                                                          </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="picture-box">
-                                            <div class="position-relative picture-mini-box">
-                                                <div class="primium-access d-none">
-                                                    <img src="assets/img/premium-quality 1.png">
-                                                    <a class="primium-btn" href="pricing.html">View now</a>
-                                                </div>
-                                                <a data-fancybox="gallery" href="assets/img/01.png">
-                                                    <img src="assets/img/01.png">
-                                                    </a>
-                                            </div>
-                                            <div class="picture-content-wrapper">
-                                                <p>I play nice but I bite</p>
-                                                <ul class="shering-icons-list">
-                                                    <li>
-                                                        <a href="#" class="heart active" >
-                                                            <img src="assets/img/heart-1.png" />
-                                                            <img src="assets/img/heart-1-filled.png">
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0)" class="comment" >
-                                                            <img src="assets/img/comment.png" />
-                                                        </a>
-                                                    </li>
-                                                    <li id="share-box">
-                                                        <a href="javascript:void(0)" id="shere-btn" class="shere-button" >
-                                                            <img src="assets/img/shere.png" />
-                                                        </a>
-                                                        <ul id="list">
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-facebook"></i>
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-twitter"></i>
+                            <div class="verify-name-icon">
+                                <p>Prakriti saha<span><img src="assets/img/verify.svg" alt=""></span></p>
+                            </div>
 
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-instagram"></i>
-                                                              </a>
-                                                            </li>
-                                                          </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="picture-box">
-                                            <div class="position-relative picture-mini-box">
-
-                                                <div class="primium-access d-flex">
-                                                    <img src="assets/img/premium-quality 1.png">
-                                                    <a class="primium-btn" href="pricing.html">View now</a>
-                                                </div>
-                                                <a data-fancybox="gallery" href="assets/img/01.png">
-                                                    <img src="assets/img/01.png">
-                                                </a>
-                                            </div>
-                                            <div class="picture-content-wrapper">
-                                                <p>I play nice but I bite</p>
-                                                <ul class="shering-icons-list">
-                                                    <li>
-                                                        <a href="#" class="heart active" >
-                                                            <img src="assets/img/heart-1.png" />
-                                                            <img src="assets/img/heart-1-filled.png">
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0)" class="comment" >
-                                                            <img src="assets/img/comment.png" />
-                                                        </a>
-                                                    </li>
-                                                    <li id="share-box">
-                                                        <a href="javascript:void(0)" id="shere-btn" class="shere-button" >
-                                                            <img src="assets/img/shere.png" />
-                                                        </a>
-                                                        <ul id="list">
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-facebook"></i>
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-twitter"></i>
-
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-instagram"></i>
-                                                              </a>
-                                                            </li>
-                                                          </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                            <div class="row align-items-center">
+                                <div class="col-6">
+                                    <div class="icon-name d-flex align-items-center">
+                                        <img src="assets/img/video-call.svg" alt="">
+                                        <p>Video Call</p>
                                     </div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel"
-                                        aria-labelledby="profile-tab">
-                                        <div class="video-box">
-                                            <div class="position-relative video-wrapper">
-                                                <div class="primium-access d-flex">
-                                                    <img src="assets/img/premium-quality 1.png">
-                                                    <a class="primium-btn" href="pricing.html">View now</a>
+                                </div>
+                                <div class="col-6">
+                                    <div class="icon-name d-flex align-items-center">
+                                        <img src="assets/img/meet-greet.svg" alt="">
+                                        <p>Meet & Greet</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="icon-name d-flex align-items-center">
+                                        <img src="assets/img/chat.svg" alt="">
+                                        <p>Chat</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="icon-name d-flex align-items-center">
+                                        <img src="assets/img/video-call.svg" alt="">
+                                        <p>Personalized Video</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="buy-btn">Buy Coins</button>
+                                </div>
+                            </div>
+
+                            <div class="profile-tab-section">
+                                <div class="tabs-list">
+                                    <ul class="nav nav-tabs nav-pills nav-fill" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
+                                                role="tab" aria-controls="home" aria-selected="true">Pictures</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
+                                                role="tab" aria-controls="profile" aria-selected="false">Videos</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content pb-4" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                            aria-labelledby="home-tab">
+                                            <div class="picture-box">
+                                                <div class="position-relative picture-mini-box">
+                                                    <div class="primium-access d-none">
+                                                        <img src="assets/img/premium-quality 1.png">
+                                                        <a class="primium-btn" href="pricing.html"><img
+                                                                src="assets/img/coin.svg" alt=""> 39 Coins</a>
+                                                    </div>
+                                                    <a class="profile-imgvid-list" data-fancybox="gallery"
+                                                        href="https://images.unsplash.com/photo-1616723356415-fe4a15be81d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+                                                        <img
+                                                            src="https://images.unsplash.com/photo-1616723356415-fe4a15be81d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+                                                    </a>
                                                 </div>
+                                                <div class="picture-content-wrapper">
+                                                    <p>I play nice but I bite</p>
+                                                    <ul class="shering-icons-list">
+                                                        <li>
+                                                            <a href="#" class="heart active">
+                                                                <img src="assets/img/heart-1.png" />
+                                                                <img src="assets/img/heart-1-filled.png">
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="comment">
+                                                                <img src="assets/img/comment.png" />
+                                                            </a>
+                                                        </li>
+                                                        <li id="share-box">
+                                                            <a href="javascript:void(0)" id="shere-btn"
+                                                                class="shere-button">
+                                                                <img src="assets/img/shere.png" />
+                                                            </a>
+                                                            <ul id="list">
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-facebook"></i>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-twitter"></i>
+
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-instagram"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="picture-box">
+                                                <div class="position-relative picture-mini-box">
+                                                    <div class="primium-access d-flex">
+                                                        <img src="assets/img/premium-quality 1.png">
+                                                        <a class="primium-btn" href="pricing.html"><img
+                                                                src="assets/img/coin.svg" alt=""> 39 Coins</a>
+                                                    </div>
+                                                    <a class="profile-imgvid-list" data-fancybox="gallery"
+                                                        href="https://images.unsplash.com/photo-1616723356415-fe4a15be81d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+                                                        <img
+                                                            src="https://images.unsplash.com/photo-1616723356415-fe4a15be81d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+                                                    </a>
+                                                </div>
+                                                <div class="picture-content-wrapper">
+                                                    <p>I play nice but I bite</p>
+                                                    <ul class="shering-icons-list">
+                                                        <li>
+                                                            <a href="#" class="heart active">
+                                                                <img src="assets/img/heart-1.png" />
+                                                                <img src="assets/img/heart-1-filled.png">
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="comment">
+                                                                <img src="assets/img/comment.png" />
+                                                            </a>
+                                                        </li>
+                                                        <li id="share-box">
+                                                            <a href="javascript:void(0)" id="shere-btn"
+                                                                class="shere-button">
+                                                                <img src="assets/img/shere.png" />
+                                                            </a>
+                                                            <ul id="list">
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-facebook"></i>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-twitter"></i>
+
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-instagram"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="picture-box">
+                                                <div class="position-relative picture-mini-box">
+                                                    <div class="primium-access d-none">
+                                                        <img src="assets/img/premium-quality 1.png">
+                                                        <a class="primium-btn" href="pricing.html"><img
+                                                                src="assets/img/coin.svg" alt=""> 39 Coins</a>
+                                                    </div>
+                                                    <a class="profile-imgvid-list" data-fancybox="gallery"
+                                                        href="https://images.unsplash.com/photo-1616723356415-fe4a15be81d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+                                                        <img
+                                                            src="https://images.unsplash.com/photo-1616723356415-fe4a15be81d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+                                                    </a>
+                                                </div>
+                                                <div class="picture-content-wrapper">
+                                                    <p>I play nice but I bite</p>
+                                                    <ul class="shering-icons-list">
+                                                        <li>
+                                                            <a href="#" class="heart active">
+                                                                <img src="assets/img/heart-1.png" />
+                                                                <img src="assets/img/heart-1-filled.png">
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="comment">
+                                                                <img src="assets/img/comment.png" />
+                                                            </a>
+                                                        </li>
+                                                        <li id="share-box">
+                                                            <a href="javascript:void(0)" id="shere-btn"
+                                                                class="shere-button">
+                                                                <img src="assets/img/shere.png" />
+                                                            </a>
+                                                            <ul id="list">
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-facebook"></i>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-twitter"></i>
+
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-instagram"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="picture-box">
+                                                <div class="position-relative picture-mini-box">
+
+                                                    <div class="primium-access d-flex">
+                                                        <img src="assets/img/premium-quality 1.png">
+                                                        <a class="primium-btn" href="pricing.html"><img
+                                                                src="assets/img/coin.svg" alt=""> 39 Coins</a>
+                                                    </div>
+                                                    <a class="profile-imgvid-list" data-fancybox="gallery"
+                                                        href="https://images.unsplash.com/photo-1616723356415-fe4a15be81d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+                                                        <img
+                                                            src="https://images.unsplash.com/photo-1616723356415-fe4a15be81d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+                                                    </a>
+                                                </div>
+                                                <div class="picture-content-wrapper">
+                                                    <p>I play nice but I bite</p>
+                                                    <ul class="shering-icons-list">
+                                                        <li>
+                                                            <a href="#" class="heart active">
+                                                                <img src="assets/img/heart-1.png" />
+                                                                <img src="assets/img/heart-1-filled.png">
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="comment">
+                                                                <img src="assets/img/comment.png" />
+                                                            </a>
+                                                        </li>
+                                                        <li id="share-box">
+                                                            <a href="javascript:void(0)" id="shere-btn"
+                                                                class="shere-button">
+                                                                <img src="assets/img/shere.png" />
+                                                            </a>
+                                                            <ul id="list">
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-facebook"></i>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-twitter"></i>
+
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-instagram"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="profile" role="tabpanel"
+                                            aria-labelledby="profile-tab">
+                                            <div class="video-box">
+                                                <div class="position-relative video-wrapper">
+                                                    <div class="primium-access d-flex">
+                                                        <img src="assets/img/premium-quality 1.png">
+                                                        <a class="primium-btn" href="pricing.html"><img
+                                                                src="assets/img/coin.svg" alt=""> 39 Coins</a>
+                                                    </div>
+                                                    <video id="my-video" class="video-js" controls preload="auto"
+                                                        width="640" height="264" poster="assets/img/video-poster.png"
+                                                        data-setup="{}">
+                                                        <source src="assets/mov_bbb.mp4" type="video/mp4" />
+                                                        <source src="assets/mov_bbb.mp4" type="video/webm" />
+                                                        <p class="vjs-no-js">
+                                                            To view this video please enable JavaScript, and consider
+                                                            upgrading to a
+                                                            web browser that
+                                                            <a href="https://videojs.com/html5-video-support/"
+                                                                target="_blank">supports HTML5 video</a>
+                                                        </p>
+                                                    </video>
+                                                </div>
+                                                <div class="picture-content-wrapper">
+                                                    <p>I play nice but I bite</p>
+                                                    <ul class="shering-icons-list">
+                                                        <li>
+                                                            <a href="#" class="heart active">
+                                                                <img src="assets/img/heart-1.png" />
+                                                                <img src="assets/img/heart-1-filled.png">
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="comment">
+                                                                <img src="assets/img/comment.png" />
+                                                            </a>
+                                                        </li>
+                                                        <li id="share-box">
+                                                            <a href="javascript:void(0)" id="shere-btn"
+                                                                class="shere-button">
+                                                                <img src="assets/img/shere.png" />
+                                                            </a>
+                                                            <ul id="list">
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-facebook"></i>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-twitter"></i>
+
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-instagram"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                            <div class="video-box">
+
                                                 <video id="my-video" class="video-js" controls preload="auto"
                                                     width="640" height="264" poster="assets/img/video-poster.png"
                                                     data-setup="{}">
@@ -333,114 +462,119 @@
                                                     <source src="assets/mov_bbb.mp4" type="video/webm" />
                                                     <p class="vjs-no-js">
                                                         To view this video please enable JavaScript, and consider
-                                                        upgrading to a
+                                                        upgrading
+                                                        to a
                                                         web browser that
                                                         <a href="https://videojs.com/html5-video-support/"
                                                             target="_blank">supports HTML5 video</a>
                                                     </p>
                                                 </video>
-                                            </div>
-                                            <div class="picture-content-wrapper">
-                                                <p>I play nice but I bite</p>
-                                                <ul class="shering-icons-list">
-                                                    <li>
-                                                        <a href="#" class="heart active" >
-                                                            <img src="assets/img/heart-1.png" />
-                                                            <img src="assets/img/heart-1-filled.png">
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0)" class="comment" >
-                                                            <img src="assets/img/comment.png" />
-                                                        </a>
-                                                    </li>
-                                                    <li id="share-box">
-                                                        <a href="javascript:void(0)" id="shere-btn" class="shere-button" >
-                                                            <img src="assets/img/shere.png" />
-                                                        </a>
-                                                        <ul id="list">
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-facebook"></i>
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-twitter"></i>
+                                                <div class="picture-content-wrapper">
+                                                    <p>I play nice but I bite</p>
+                                                    <ul class="shering-icons-list">
+                                                        <li>
+                                                            <a href="#" class="heart active">
+                                                                <img src="assets/img/heart-1.png" />
+                                                                <img src="assets/img/heart-1-filled.png">
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="comment">
+                                                                <img src="assets/img/comment.png" />
+                                                            </a>
+                                                        </li>
+                                                        <li id="share-box">
+                                                            <a href="javascript:void(0)" id="shere-btn"
+                                                                class="shere-button">
+                                                                <img src="assets/img/shere.png" />
+                                                            </a>
+                                                            <ul id="list">
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-facebook"></i>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-twitter"></i>
 
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-instagram"></i>
-                                                              </a>
-                                                            </li>
-                                                          </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                        </div>
-                                        <div class="video-box">
-
-                                            <video id="my-video" class="video-js" controls preload="auto" width="640"
-                                                height="264" poster="assets/img/video-poster.png" data-setup="{}">
-                                                <source src="assets/mov_bbb.mp4" type="video/mp4" />
-                                                <source src="assets/mov_bbb.mp4" type="video/webm" />
-                                                <p class="vjs-no-js">
-                                                    To view this video please enable JavaScript, and consider upgrading
-                                                    to a
-                                                    web browser that
-                                                    <a href="https://videojs.com/html5-video-support/"
-                                                        target="_blank">supports HTML5 video</a>
-                                                </p>
-                                            </video>
-                                            <div class="picture-content-wrapper">
-                                                <p>I play nice but I bite</p>
-                                                <ul class="shering-icons-list">
-                                                    <li>
-                                                        <a href="#" class="heart active" >
-                                                            <img src="assets/img/heart-1.png" />
-                                                            <img src="assets/img/heart-1-filled.png">
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0)" class="comment" >
-                                                            <img src="assets/img/comment.png" />
-                                                        </a>
-                                                    </li>
-                                                    <li id="share-box">
-                                                        <a href="javascript:void(0)" id="shere-btn" class="shere-button" >
-                                                            <img src="assets/img/shere.png" />
-                                                        </a>
-                                                        <ul id="list">
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-facebook"></i>
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-twitter"></i>
-
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-instagram"></i>
-                                                              </a>
-                                                            </li>
-                                                          </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="video-box">
-                                            <div class="position-relative video-wrapper">
-                                                <div class="primium-access d-flex">
-                                                    <img src="assets/img/premium-quality 1.png">
-                                                    <a class="primium-btn" href="pricing.html">View now</a>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-instagram"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
                                                 </div>
+                                            </div>
+                                            <div class="video-box">
+                                                <div class="position-relative video-wrapper">
+                                                    <div class="primium-access d-flex">
+                                                        <img src="assets/img/premium-quality 1.png">
+                                                        <a class="primium-btn" href="pricing.html"><img
+                                                                src="assets/img/coin.svg" alt=""> 39 Coins</a>
+                                                    </div>
+                                                    <video id="my-video" class="video-js" controls preload="auto"
+                                                        width="640" height="264" poster="assets/img/video-poster.png"
+                                                        data-setup="{}">
+                                                        <source src="assets/mov_bbb.mp4" type="video/mp4" />
+                                                        <source src="assets/mov_bbb.mp4" type="video/webm" />
+                                                        <p class="vjs-no-js">
+                                                            To view this video please enable JavaScript, and consider
+                                                            upgrading to a
+                                                            web browser that
+                                                            <a href="https://videojs.com/html5-video-support/"
+                                                                target="_blank">supports HTML5 video</a>
+                                                        </p>
+                                                    </video>
+                                                </div>
+                                                <div class="picture-content-wrapper">
+                                                    <p>I play nice but I bite</p>
+                                                    <ul class="shering-icons-list">
+                                                        <li>
+                                                            <a href="#" class="heart active">
+                                                                <img src="assets/img/heart-1.png" />
+                                                                <img src="assets/img/heart-1-filled.png">
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="comment">
+                                                                <img src="assets/img/comment.png" />
+                                                            </a>
+                                                        </li>
+                                                        <li id="share-box">
+                                                            <a href="javascript:void(0)" id="shere-btn"
+                                                                class="shere-button">
+                                                                <img src="assets/img/shere.png" />
+                                                            </a>
+                                                            <ul id="list">
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-facebook"></i>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-twitter"></i>
+
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-instagram"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                            <div class="video-box">
+
                                                 <video id="my-video" class="video-js" controls preload="auto"
                                                     width="640" height="264" poster="assets/img/video-poster.png"
                                                     data-setup="{}">
@@ -448,108 +582,55 @@
                                                     <source src="assets/mov_bbb.mp4" type="video/webm" />
                                                     <p class="vjs-no-js">
                                                         To view this video please enable JavaScript, and consider
-                                                        upgrading to a
+                                                        upgrading
+                                                        to a
                                                         web browser that
                                                         <a href="https://videojs.com/html5-video-support/"
                                                             target="_blank">supports HTML5 video</a>
                                                     </p>
                                                 </video>
+                                                <div class="picture-content-wrapper">
+                                                    <p>I play nice but I bite</p>
+                                                    <ul class="shering-icons-list">
+                                                        <li>
+                                                            <a href="#" class="heart active">
+                                                                <img src="assets/img/heart-1.png" />
+                                                                <img src="assets/img/heart-1-filled.png">
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0)" class="comment">
+                                                                <img src="assets/img/comment.png" />
+                                                            </a>
+                                                        </li>
+                                                        <li id="share-box">
+                                                            <a href="javascript:void(0)" id="shere-btn"
+                                                                class="shere-button">
+                                                                <img src="assets/img/shere.png" />
+                                                            </a>
+                                                            <ul id="list">
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-facebook"></i>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-twitter"></i>
+
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <a class="list-item-link" href="#">
+                                                                        <i class="fa fa-instagram"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
                                             </div>
-                                            <div class="picture-content-wrapper">
-                                                <p>I play nice but I bite</p>
-                                                <ul class="shering-icons-list">
-                                                    <li>
-                                                        <a href="#" class="heart active" >
-                                                            <img src="assets/img/heart-1.png" />
-                                                            <img src="assets/img/heart-1-filled.png">
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0)" class="comment" >
-                                                            <img src="assets/img/comment.png" />
-                                                        </a>
-                                                    </li>
-                                                    <li id="share-box">
-                                                        <a href="javascript:void(0)" id="shere-btn" class="shere-button" >
-                                                            <img src="assets/img/shere.png" />
-                                                        </a>
-                                                        <ul id="list">
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-facebook"></i>
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-twitter"></i>
-
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-instagram"></i>
-                                                              </a>
-                                                            </li>
-                                                          </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                        </div>
-                                        <div class="video-box">
-
-                                            <video id="my-video" class="video-js" controls preload="auto" width="640"
-                                                height="264" poster="assets/img/video-poster.png" data-setup="{}">
-                                                <source src="assets/mov_bbb.mp4" type="video/mp4" />
-                                                <source src="assets/mov_bbb.mp4" type="video/webm" />
-                                                <p class="vjs-no-js">
-                                                    To view this video please enable JavaScript, and consider upgrading
-                                                    to a
-                                                    web browser that
-                                                    <a href="https://videojs.com/html5-video-support/"
-                                                        target="_blank">supports HTML5 video</a>
-                                                </p>
-                                            </video>
-                                            <div class="picture-content-wrapper">
-                                                <p>I play nice but I bite</p>
-                                                <ul class="shering-icons-list">
-                                                    <li>
-                                                        <a href="#" class="heart active" >
-                                                            <img src="assets/img/heart-1.png" />
-                                                            <img src="assets/img/heart-1-filled.png">
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0)" class="comment" >
-                                                            <img src="assets/img/comment.png" />
-                                                        </a>
-                                                    </li>
-                                                    <li id="share-box">
-                                                        <a href="javascript:void(0)" id="shere-btn" class="shere-button" >
-                                                            <img src="assets/img/shere.png" />
-                                                        </a>
-                                                        <ul id="list">
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-facebook"></i>
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-twitter"></i>
-
-                                                              </a>
-                                                            </li>
-                                                            <li class="list-item">
-                                                              <a class="list-item-link" href="#">
-                                                                <i class="fa fa-instagram"></i>
-                                                              </a>
-                                                            </li>
-                                                          </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -557,94 +638,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="sticky-button">
-            <a href="chat.html" class="white-btn btn-bottom">Chat</a>
-            <a href="buy-coins.html" class="yellow-btn btn-bottom">Coins</a>
-        </div>
-    </div>
-    <div class="comment-popup">
-        <button class="close-comment"><i class="fa fa-close"></i></button>
-        <div class="chat-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="chat-wrap">
-                            <ul class="chat-list">
-                                <li>
-                                    <div class="chat">
-                                        <div class="body">
-                                            <div class="image"><img src="assets/img/chat-profile-1.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="head">
-                                                    <h5>Roger Welch</h5>
-                                                    <span>Today 06.30 am</span>
-                                                </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="chat">
-                                        <div class="body">
-                                            <div class="image"><img src="assets/img/chat-profile-1.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="head">
-                                                    <h5>Roger Welch</h5>
-                                                    <span>Today 06.30 am</span>
-                                                </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="chat">
-                                        <div class="body">
-                                            <div class="image"><img src="assets/img/chat-profile-1.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="head">
-                                                    <h5>Roger Welch</h5>
-                                                    <span>Today 06.30 am</span>
-                                                </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="chat">
-                                        <div class="body">
-                                            <div class="image"><img src="assets/img/chat-profile-1.jpg" alt=""></div>
-                                            <div class="content">
-                                                <div class="head">
-                                                    <h5>Me</h5>
-                                                    <span>Today 06.30 am</span>
-                                                </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="chat-submission">
-                <form action="#">
-                    <input type="text" placeholder="Type something">
-                    <div class="buttons">
-                        <label class="file-upload button button-box button-round button-primary" for="chat-file-upload">
-                            <input type="file" id="chat-file-upload" multiple>
-                            <i class="fa fa-paperclip"></i>
-                        </label>
-                        <button class="submit"><i class="fa fa-paper-plane"></i></button>
-                    </div>
-                </form>
-            </div>
+            </section>
         </div>
     </div>
     <!-- JS ============================================ -->
@@ -666,8 +660,8 @@
 -->
     <script>
         videojs(document.querySelector('#my-video'));
-        
-        $("a.comment,.close-comment").on('click',function(){
+
+        $("a.comment,.close-comment").on('click', function () {
             $(".comment-popup").toggleClass("opened");
         });
     </script>

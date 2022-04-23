@@ -11,10 +11,10 @@
     var scroll = $(window).scrollTop();
     if (scroll < 200) {
       $(".sticker").removeClass("stick");
-      $("body").removeClass("space-pt--120");
+      // $("body").removeClass("space-pt--120");
     } else {
       $(".sticker").addClass("stick");
-      $("body").addClass("space-pt--120");
+      // $("body").addClass("space-pt--120");
     }
   });
 
