@@ -5716,24 +5716,57 @@ img {
   margin-bottom: 20px !important;
 }
 
+.golden-shape {
+  position     : absolute;
+  top          : 0;
+  left         : -40px;
+  width        : calc(100% - 127px);
+  height       : 100%;
+  background   : #E1AB18;
+  background   : -webkit-linear-gradient(to bottom, #F7C662, #FFFC82, #FFF68A, #E1AB18);
+  background   : linear-gradient(to bottom, #F7C662, #FFFC82, #FFF68A, #E1AB18);
+  box-shadow   : 0px -4px 18px rgba(22, 22, 22, 0.25);
+  border-radius: 10px;
+  transform    : skewX(-157deg);
+}
+
+.sliver-shape {
+  position     : absolute;
+  top          : 0;
+  left         : -30px;
+  width        : calc(100% - 62px);
+  height       : 100%;
+  background   : #D3D3D3;
+  background   : -webkit-linear-gradient(to bottom, #FFFFFF, #FFFFFF, #D3D3D3);
+  background   : linear-gradient(to bottom, #FFFFFF, #FFFFFF, #D3D3D3);
+  box-shadow   : 0px -4px 18px rgba(22, 22, 22, 0.25);
+  border-radius: 10px;
+  transform    : skewX(-157deg);
+}
+
 /* Live User */
 .live-users {
   margin-bottom: 12px;
 }
 
+.live-users .slick-list {
+  overflow-x: auto;
+}
+
 .live-users .live-person {
-  position     : relative;
-  margin       : 0 7.5px;
-  max-width    : 49.32px;
-  width        : 100%;
-  max-height   : 53.61px;
-  height       : 100%;
-  border-radius: 8.58px;
+  position        : relative;
+  margin          : 0 7.5px;
+  /* max-width    : 49.32px;
+  width           : 100%;
+  max-height      : 53.61px;
+  height          : 100%; */
+  border-radius   : 8.58px;
 }
 
 .live-users .live-person img {
   width          : 100%;
-  height         : 53.61px;
+  min-height     : 53.61px;
+  max-height     : 53.61px;
   object-fit     : cover;
   object-position: top center;
   border-radius  : 8.58px;
@@ -5763,18 +5796,100 @@ img {
 
 /* Trending Angels */
 .trendingAngels .full-image {
+  position     : relative;
   width        : 100%;
+  max-height   : 198px;
   height       : 100%;
   border-radius: 10px;
   overflow     : hidden;
   margin-bottom: 20px;
 }
 
-.trendingAngels .full-image a img {
+.trendingAngels .full-image img {
   width          : 100%;
   height         : 100%;
   object-fit     : cover;
-  object-position: center center;
+  object-position: top right;
+}
+
+.trendingAngels .full-image .content {
+  position      : absolute;
+  top           : 15px;
+  left          : 17px;
+  bottom        : 42px;
+  display       : flex;
+  flex-direction: column;
+}
+
+.trendingAngels .full-image .content .btn {
+  width        : fit-content;
+  margin-bottom: auto;
+  font-style   : normal;
+  font-weight  : 600;
+  font-size    : 10px;
+  line-height  : 15px;
+  padding      : 5px 17px;
+  color        : #36171E;
+  border       : 1px solid #36171E;
+  box-sizing   : border-box;
+  filter       : drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 100px;
+}
+
+.trendingAngels .full-image .content .time {
+  font-style    : normal;
+  font-weight   : 600;
+  font-size     : 10px;
+  line-height   : 15px;
+  color         : #36171E;
+  margin        : 0px;
+  text-transform: uppercase;
+}
+
+.trendingAngels .full-image .content .live {
+  margin        : 0px;
+  text-transform: uppercase;
+  font-style    : normal;
+  font-weight   : 700;
+  font-size     : 51.2195px;
+  line-height   : 1;
+  color         : #36171E;
+}
+
+.trendingAngels .full-image .content .name {
+  margin        : 0px;
+  text-transform: uppercase;
+  font-style    : normal;
+  font-weight   : 500;
+  font-size     : 11px;
+  line-height   : 16px;
+  color         : #36171E;
+}
+
+.trendingAngels .full-image.small-col-img {
+  width        : 100%;
+  height       : 96px;
+  overflow     : hidden;
+  border-radius: 10px;
+}
+
+.small-col-img .content {
+  top   : 8px !important;
+  left  : 10px !important;
+  bottom: 11px !important;
+}
+
+.small-col-img .content .btn {
+  font-size: 7px !important;
+  padding  : 3px 7px !important;
+}
+
+.small-col .content .time {
+  font-size: 8px !important;
+}
+
+.small-col .content .name {
+  font-size: 15px !important;
 }
 
 /* New Angels */
@@ -6709,4 +6824,42 @@ img {
   display        : flex;
   align-items    : center;
   justify-content: space-between;
+}
+
+/* Buy Coins */
+
+.buy-coins .img-banner {
+  position     : relative;
+  width        : 100%;
+  max-height   : 198px;
+  height       : 100%;
+  margin       : 0 auto;
+  border-radius: 10px;
+  overflow     : hidden;
+  margin-bottom: 35px;
+}
+
+.buy-coins .img-banner img {
+  width          : 100%;
+  height         : 100%;
+  object-fit     : cover;
+  object-position: top right;
+}
+
+.img-banner .shape-text {
+  position   : absolute;
+  bottom     : 8px;
+  max-width  : 139px;
+  left       : 18px;
+  font-style : normal;
+  font-weight: 700;
+  font-size  : 24px;
+  line-height: 36px;
+  color      : #36171E;
+  margin     : 0;
+  transform  : skewX(0deg);
+}
+
+.pricing-box {
+  padding: 15px;
 }

@@ -119,8 +119,10 @@
   $('.live-list').slick({
     dots: false,
     arrows: false,
-    initialSlide: 0,
+    // initialSlide: 0,
     infinite: false,
+    centerPadding: '60px',
+    slidesToShow: 5,
     slidesToScroll: 1,
   });
 
