@@ -6931,3 +6931,144 @@ img {
 .pricing-box .custom-radio input[type="radio"]:checked+label span i {
   opacity: 1;
 }
+
+/* Live Video Screen */
+.live-video {
+  position: absolute;
+  top     : 0;
+  width   : 100%;
+  height  : 100%;
+}
+
+.live-video img {
+  width          : 100%;
+  height         : 100%;
+  object-fit     : cover;
+  object-position: center;
+}
+
+.live-page .chat-submit {
+  background: transparent;
+}
+
+.live-screen .history-header-section header {
+  background: transparent !important;
+}
+
+.modal-p-bottom .modal-dialog {
+  position : absolute;
+  bottom   : 0;
+  left     : 0;
+  right    : 0;
+  max-width: 100% !important;
+  margin   : 0;
+  transform: translateY(100%) !important;
+}
+
+.modal-p-bottom .modal-dialog .modal-content {
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.modal-p-bottom.show {
+  overflow: hidden;
+}
+
+.modal-p-bottom.show .modal-dialog {
+  transform                    : translateY(0%) !important;
+  /* max-height                : 461px; */
+  border-radius                : 20px;
+  border-bottom-left-radius    : 0px;
+  border-bottom-right-radius   : 0px;
+  overflow                     : hidden;
+}
+
+.modal-p-bottom .close {
+  float  : left;
+  opacity: 1;
+}
+
+.modal-p-bottom .close i {
+  color: #fff;
+}
+
+.modal-p-bottom .modal-content {
+  background-color       : rgba(82, 82, 82, 0.2);
+  backdrop-filter        : blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.modal-p-bottom .modal-body {
+  padding: 0px;
+}
+
+.modal-backdrop {
+  background: transparent;
+}
+
+.modal-p-bottom .modal-coin-img img {
+  width       : 26px;
+  height      : 26px;
+  margin-left : 20px;
+  margin-right: 6px;
+}
+
+.modal-p-bottom .modal-coin-number p {
+  font-style : normal;
+  font-weight: 600;
+  font-size  : 18px;
+  line-height: 27px;
+  color      : #FFFFFF;
+  margin     : 0;
+}
+
+.modal-p-bottom .modal-buy-coin {
+  font-style   : normal;
+  font-weight  : 500;
+  font-size    : 12px;
+  line-height  : 18px;
+  color        : #36171E;
+  background   : #F7C662;
+  background   : -webkit-linear-gradient(to left, #F7C662, #FFFC82, #FFF68A, #E1AB18);
+  background   : linear-gradient(to left, #F7C662, #FFFC82, #FFF68A, #E1AB18);
+  border-radius: 100px;
+  padding      : 11px 24px;
+  border       : 0px;
+}
+
+.modal-p-bottom .bottom-modal-header {
+  padding: 15px 20px;
+}
+
+.sticker-panel {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.sticker-panel .nav-link {
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+}
+
+.sticker-panel .nav-link.active {
+  background      : transparent;
+  /* color        : #F7C662; */
+  border-bottom   : 3px solid #F7C662;
+}
+
+.sticker-panel .nav-link .iconify {
+  font-size: 24px;
+  color    : #fff;
+}
+
+.sticker-panel .nav-link.active .iconify {
+  color: #F7C662;
+}
+
+.modal-p-bottom .tab-content {
+  padding   : 0px 20px;
+  overflow-y: auto;
+  height    : calc(100vh - 390px);
+}
+
+.modal-p-bottom .tab-content .col-4 {
+  margin: 25px auto;
+}

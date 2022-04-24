@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Angel Drop</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/favicon.ico">
+    <!-- CSS
+		============================================ -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="assets/css/plugins/slick.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/plugins/cssanimation.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+
+    <!-- Vendor & Plugins CSS (Please remove the comment from below vendor.min.css & plugins.min.css for better website load performance and remove css files from above) -->
+    <!--
+			<link rel="stylesheet" href="assets/css/vendor.min.css">
+			<link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+			-->
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="live-screen">
+    <!--====================  preloader area ====================-->
+    <div class="preloader-activate preloader-active">
+        <div class="preloader-area-wrap">
+            <div class="spinner d-flex justify-content-center align-items-center h-100">
+                <div class="img-loader">
+                    <img src="assets/img/login.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====================  End of preloader area  ====================-->
+    <div class="history-header-section">
+        <div class="body-wrapper">
+            <header class="sticker sticky-top">
+                <div class="header-wrapper">
+                    <div class="container space-y--15">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <button class="header-menu-trigger">
+                                            <img src="assets/img/arrow-left.png">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <!-- header menu trigger -->
+                                <!-- <button class="header-menu-trigger ml-auto" id="header-menu-trigger">
+                                    <img src="assets/img/menu-2.svg" class="injectable" alt="">
+                                </button> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="offcanvas-menu" id="offcanvas-menu">
+                <div class="offcanvas-navigation-wrapper">
+                    <ul class="offcanvas-navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="profile.html">My Profile</a></li>
+                        <li><a href="buy-coins.html">My Coins</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="terms-conditions.html">Terms & Condition</a></li>
+                        <li><a href="terms-conditions.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Refund, Return & Cancellation Policy</a></li>
+                        <li><a href="terms-conditions.html">Community Guideline</a></li>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                        <li><a href="login.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Live Page -->
+            <section class="live-page">
+                <div class="live-video">
+                    <img src="https://images.unsplash.com/photo-1630255733038-0eaa251036c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                        alt="">
+                </div>
+                <div class="container">
+                    <div class="chat-submit d-flex align-items-center">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Type a message..."
+                                aria-label="Type a message..." aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn" type="button"><i class="fa fa-paper-plane-o"
+                                        aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <button class="btn attachment-btn" data-toggle="modal" data-target="#exampleModal"
+                            type="button"><img src="assets/img/smily.svg" alt="" srcset=""></button>
+                    </div>
+                </div>
+                <div class="modal fade modal-p-bottom" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+
+                                <div class="d-flex align-items-center bottom-modal-header">
+                                    <div>
+                                        <button type=" button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <i class="fa fa-times" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-coin-img">
+                                        <img src="assets/img/coin.png" alt="">
+                                    </div>
+                                    <div class="modal-coin-number">
+                                        <p>0</p>
+                                    </div>
+
+                                    <div class="ml-auto">
+                                        <button class="modal-buy-coin">Buy Coins</button>
+                                    </div>
+                                </div>
+
+                                <div class="sticker-panel">
+                                    <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                                                href="#pills-home" role="tab" aria-controls="pills-home"
+                                                aria-selected="true"><span class="iconify"
+                                                    data-icon="fa6-solid:gift"></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill"
+                                                href="#pills-profile" role="tab" aria-controls="pills-profile"
+                                                aria-selected="false"><span class="iconify"
+                                                    data-icon="bi:emoji-smile-fill"></span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                                href="#pills-contact" role="tab" aria-controls="pills-contact"
+                                                aria-selected="false"><span class="iconify"
+                                                    data-icon="mdi:teddy-bear"></span></a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                                href="#pills-contact" role="tab" aria-controls="pills-contact"
+                                                aria-selected="false"><span class="iconify"
+                                                    data-icon="fa-solid:crown"></span></a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                                href="#pills-contact" role="tab" aria-controls="pills-contact"
+                                                aria-selected="false"><span class="iconify"
+                                                    data-icon="ant-design:heart-filled"></span></a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill"
+                                                href="#pills-contact" role="tab" aria-controls="pills-contact"
+                                                aria-selected="false"><span class="iconify"
+                                                    data-icon="fa-solid:car"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                        aria-labelledby="pills-home-tab">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img src="assets/img/sticker-1.png" alt="">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="assets/img/sticker-2.png" alt="">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="assets/img/sticker-3.png" alt="">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="assets/img/sticker-4.png" alt="">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="assets/img/sticker-5.png" alt="">
+                                            </div>
+                                            <div class="col-4">
+                                                <img src="assets/img/sticker-6.png" alt="">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                        aria-labelledby="pills-profile-tab">...</div>
+                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                        aria-labelledby="pills-contact-tab">...</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </div>
+    <!-- JS ============================================ -->
+    <!-- Modernizer JS -->
+    <script src="assets/js/modernizr-2.8.3.min.js"></script>
+    <!-- jQuery JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- SVG inject JS -->
+    <script src="assets/js/plugins/svg-inject.min.js"></script>
+    <!-- Slick slider JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins/slick.min.js"></script>
+    <!-- Plugins JS (Please remove the comment from below plugins.min.js for better website load performance and remove plugin js files from above) -->
+    <!--
+  <script src="assets/js/plugins/plugins.min.js"></script>
+-->
+    <script>
+        videojs(document.querySelector('#my-video'));
+    </script>
+    <!-- Main JS -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
