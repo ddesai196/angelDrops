@@ -6861,5 +6861,73 @@ img {
 }
 
 .pricing-box {
-  padding: 15px;
+  padding      : 15px;
+  display      : flex;
+  align-items  : center;
+  background   : rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  border       : 1px solid #F7C662;
+  margin-bottom: 25px;
+}
+
+.pricing-box .custom-radio input[type="radio"]:checked {
+  background-color: red;
+}
+
+.pricing-box .coin {
+  width : 27px;
+  height: 27px;
+}
+
+.pricing-box .coin-number {
+  font-style : normal;
+  font-weight: 600;
+  font-size  : 16px;
+  line-height: 24px;
+  color      : #FFFFFF;
+  margin     : 0;
+  margin-left: 12px;
+}
+
+.pricing-box .amount {
+  font-style : normal;
+  font-weight: 700;
+  font-size  : 21px;
+  line-height: 32px;
+  color      : #FFFFFF;
+  margin     : 0;
+  margin-left: auto;
+}
+
+.pricing-box .custom-radio {
+  margin-right: 15px;
+}
+
+.pricing-box .custom-radio input[type="radio"] {
+  display: none;
+}
+
+.pricing-box .custom-radio input[type="radio"]+label span {
+  display        : flex;
+  width          : 24px;
+  height         : 24px;
+  border-radius  : 100%;
+  border         : 1px solid #fff;
+  align-items    : center;
+  justify-content: center;
+}
+
+.pricing-box .custom-radio input[type="radio"]+label span i {
+  opacity   : 0;
+  transition: all 0.3s ease;
+  color     : #fff;
+}
+
+.pricing-box .custom-radio input[type="radio"]:checked.radio-bg+label span {
+  background-color: #3C1D24;
+  border          : 1px solid #3C1D24;
+}
+
+.pricing-box .custom-radio input[type="radio"]:checked+label span i {
+  opacity: 1;
 }
