@@ -4913,13 +4913,18 @@ img {
 }
 
 body.hide-content {
-  background-image: none;
+  /* background-image: none; */
+  max-width    : 375px;
+  width        : 100%;
+  margin       : 0 auto;
+  /* width     : 400px; */
+  background   : #000 !important;
 }
 
-body.hide-content * {
+/* body.hide-content * {
   display   : none;
   background: #fff !important;
-}
+} */
 
 .pricing-card {
   border       : 1px solid rgba(255, 255, 255, 0.2);
