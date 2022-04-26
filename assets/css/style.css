@@ -5752,18 +5752,31 @@ img {
   margin-bottom: 12px;
 }
 
-.live-users .slick-list {
+/* .live-users .slick-list {
   overflow-x: auto;
+} */
+
+.live-users .live-list {
+  display       : flex;
+  align-items   : center;
+  overflow-x    : scroll;
+  padding-bottom: 10px;
+}
+
+.live-users .live-list::-webkit-scrollbar {
+  display: none;
 }
 
 .live-users .live-person {
-  position        : relative;
-  margin          : 0 7.5px;
-  /* max-width    : 49.32px;
-  width           : 100%;
-  max-height      : 53.61px;
-  height          : 100%; */
-  border-radius   : 8.58px;
+  position     : relative;
+  margin       : 0 7.5px;
+  max-width    : 49.32px;
+  min-width    : 49.32px;
+  width        : 100%;
+  max-height   : 53.61px;
+  min-height   : 53.61px;
+  height       : 100%;
+  border-radius: 8.58px;
 }
 
 .live-users .live-person img {

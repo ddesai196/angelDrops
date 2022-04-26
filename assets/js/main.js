@@ -116,15 +116,14 @@
   //   slideToClickedSlide: true,
   // });
 
-  $('.live-list').slick({
-    dots: false,
-    arrows: false,
-    // initialSlide: 0,
-    infinite: false,
-    centerPadding: '60px',
-    slidesToShow: 5,
-    slidesToScroll: 1,
-  });
+  // $('.live-list').slick({
+  //   dots: false,
+  //   arrows: false,
+  //   infinite: false,
+  //   centerPadding: '60px',
+  //   slidesToShow: 5,
+  //   slidesToScroll: 1,
+  // });
 
   $('.homeangels-carousel').slick({
     lazyLoad: 'ondemand',
