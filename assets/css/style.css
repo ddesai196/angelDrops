@@ -4725,6 +4725,7 @@ img {
   list-style     : none;
   padding        : 0;
   margin         : 0;
+  margin-bottom  : 10px;
 }
 
 .link-list a {
@@ -5736,7 +5737,7 @@ img {
   position     : absolute;
   top          : 0;
   left         : -30px;
-  width        : calc(100% - 62px);
+  width        : calc(100% - 50px);
   height       : 100%;
   background   : #D3D3D3;
   background   : -webkit-linear-gradient(to bottom, #FFFFFF, #FFFFFF, #D3D3D3);
@@ -5860,11 +5861,15 @@ img {
 
 .trendingAngels .full-image .content .name {
   margin        : 0px;
+  white-space   : nowrap;
+  overflow      : hidden;
+  text-overflow : ellipsis;
+  max-width     : 74px;
   text-transform: uppercase;
   font-style    : normal;
-  font-weight   : 500;
-  font-size     : 11px;
-  line-height   : 16px;
+  font-weight   : 600;
+  font-size     : 15px;
+  line-height   : 22px;
   color         : #36171E;
 }
 
@@ -7138,4 +7143,13 @@ img {
 
 .login-screen .field-wrapper input {
   border: 1px solid #36171E;
+}
+
+.otp-form .field-wrapper input {
+  width : 49px;
+  height: 64px;
+}
+
+.otp-form .field-wrapper {
+  margin: 0 9px;
 }

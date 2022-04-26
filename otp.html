@@ -34,76 +34,71 @@
         <div class="preloader-area-wrap">
             <div class="spinner d-flex justify-content-center align-items-center h-100">
                 <div class="img-loader">
-                    <img src="assets/img/login.svg" >
+                    <img src="assets/img/login.svg">
                 </div>
             </div>
         </div>
     </div>
     <!--====================  End of preloader area  ====================-->
     <div class="body-wrapper-bg">
-    <div class="body-wrapper space-pt--30 space-pb--30">
-        <!-- auth page header -->
-        <div class="auth-page-header space-mb--50">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="main-auth-image">
-                            <img src="assets/img/login.svg">
+        <div class="body-wrapper">
+            <!-- auth page header -->
+            <div class="auth-page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="main-auth-image">
+                                <img src="assets/img/login.svg">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- auth page body -->
-        <div class="auth-page-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- Auth form -->
-                        <div class="auth-form text-center">
-                            <form action="index.html">
-                                <div class="field-wrapper mb-0">
-                                    <input type="email" name="email" id="">
-                                    <div class="field-placeholder"><span>Enter OTP</span></div>
-                                </div>
-                                <div class="custom-checkbox mt-2 mb-1">
-                                    <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="customCheckb1">
-                                        <label class="form-check-label" for="customCheckb1">
-                                            I agree <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">terms and
-                                                conditions</a>
-                                        </label>
+
+            <section class="login">
+                <div class="container">
+                    <div class="login-screen">
+                        <div class="auth-form text-center otp-form">
+                            <p class="title">4 Digit Pin</p>
+                            <form action="otp.html">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="field-wrapper mb-0">
+                                        <input type="email" name="email" id="">
+                                        <div class="field-placeholder"><span>0</span></div>
+                                    </div>
+                                    <div class="field-wrapper mb-0">
+                                        <input type="email" name="email" id="">
+                                        <div class="field-placeholder"><span>0</span></div>
+                                    </div>
+                                    <div class="field-wrapper mb-0">
+                                        <input type="email" name="email" id="">
+                                        <div class="field-placeholder"><span>0</span></div>
+                                    </div>
+                                    <div class="field-wrapper mb-0">
+                                        <input type="email" name="email" id="">
+                                        <div class="field-placeholder"><span>0</span></div>
                                     </div>
                                 </div>
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <button class="auth-form__button btn-space">Let’s Go</button>
-                                    <button class="auth-link" type="button">Resend Code</button>
-                                </div>
+                                <button class="auth-form__button">Login</button>
                             </form>
+                            <div class="footer-link-list">
+                                <p class="link-list">
+                                    <a href="#">About Us | </a>
+                                    <a href="#">Terms &amp; Condition | </a>
+                                    <a href="#">Privacy Policy | </a>
+                                    <a href="#">Refund, Returns &amp; Cancellation Policy | </a>
+                                    <a href="#">Community Guideline |</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="login-background">
+                            <img src="assets/img/login-shape.svg" alt="">
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     </div>
-    <div class="footer-links">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-link-list">
-                        <p class="link-list">
-                            <a href="#">About Us | </a>
-                            <a href="#">Terms &amp; Condition | </a>
-                            <a href="#">Privacy Policy | </a>
-                            <a href="#">Refund, Returns &amp; Cancellation Policy | </a>
-                            <a href="#">Community Guideline |</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
     <!-- JS ============================================ -->
     <!-- Modernizer JS -->
     <script src="assets/js/modernizr-2.8.3.min.js"></script>
