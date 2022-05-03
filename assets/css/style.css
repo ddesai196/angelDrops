@@ -7253,3 +7253,78 @@ img {
   text-decoration: underline;
   font-weight    : 600;
 }
+
+/* Achivements */
+.achivements-header-section header {
+  background: #2c1619;
+}
+
+.achivements-page .page-title {
+  margin-top: 30px;
+}
+
+.achivements-box {
+  margin       : 10px auto;
+  border-bottom: 1px solid #fff;
+  padding      : 10px 0px;
+}
+
+.achivements-box:last-child {
+  border-bottom: 0px solid #fff;
+}
+
+.achivements-page .profile-img {
+  min-width    : 35px;
+  max-width    : 35px;
+  width        : 100%;
+  min-height   : 35px;
+  max-height   : 35px;
+  height       : 100%;
+  border-radius: 12px;
+  border       : 3px solid #e2b554;
+  overflow     : hidden;
+  margin-right : 15px;
+}
+
+.achivements-page .profile-img img {
+  object-fit     : cover;
+  object-position: top center;
+}
+
+.achivements-page .achivements-detail .name {
+  margin       : 0;
+  font-weight  : 600;
+  font-size    : 20px;
+  line-height  : 30px;
+  color        : #FFFFFF;
+  max-width    : 240px;
+  white-space  : nowrap;
+  overflow     : hidden;
+  text-overflow: ellipsis;
+}
+
+.achivements-page .pricing img {
+  width       : 26px;
+  height      : 26px;
+  margin-right: 6px;
+}
+
+.achivements-page .pricing p {
+  font-weight: 600;
+  font-size  : 18px;
+  line-height: 27px;
+  color      : #FFFFFF;
+}
+
+.achivements-box .trophy-icon i,
+.achivements-box .serial-no p {
+  margin        : 0;
+  /* font-weight: 600; */
+  font-size     : 20px;
+  line-height   : 30px;
+  color         : #FFFFFF;
+}
+
+.achivements-box .trophy-icon {
+  margin: 0 15px;
+}
