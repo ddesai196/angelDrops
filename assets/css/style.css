@@ -6344,6 +6344,70 @@ img {
   color      : #FFFFFF;
 }
 
+.history-page .coin-box {
+  background   : #402A2F;
+  border-radius: 8px;
+  border       : 1px solid #E1AB18;
+  padding      : 15px 16px 8px;
+  position     : relative;
+  margin-top   : 8px;
+  margin-bottom: 21px;
+}
+
+.history-page .coin-box .img {
+  position: absolute;
+  bottom  : 0;
+  right   : 0;
+}
+
+.history-page .coin-box .content p {
+  margin: 0;
+}
+
+.history-page .coin-box .content .title {
+  font-style : normal;
+  font-weight: 400;
+  font-size  : 12px;
+  line-height: 18px;
+  color      : rgba(255, 255, 255, 0.7);
+}
+
+.history-page .coin-box .content .coin-available {
+  font-style   : normal;
+  font-weight  : 600;
+  font-size    : 20px;
+  line-height  : 30px;
+  color        : #FFFFFF;
+  margin-bottom: 6px;
+}
+
+.history-page .coin-box .content .more-coin {
+  background   : linear-gradient(106.54deg, #F7C662 9.26%, #FFFC82 34.61%, #FFF68A 63.18%, #E1AB18 88.54%);
+  box-shadow   : 0px 1.28571px 2.57143px rgba(0, 0, 0, 0.25);
+  border-radius: 64.2857px;
+  font-style   : normal;
+  font-weight  : 600;
+  font-size    : 10.2857px;
+  line-height  : 15px;
+  color        : #36171E;
+  padding      : 6px 12px;
+  border       : 0.64px solid #ffff;
+  margin-bottom: 22px;
+}
+
+.history-page .coin-box .content .expire {
+  font-style : normal;
+  font-weight: 500;
+  font-size  : 12px;
+  line-height: 18px;
+  color      : rgba(255, 255, 255, 0.7);
+}
+
+.history-page .coin-box .content .expire span {
+  color      : #fff;
+  font-weight: 600;
+}
+
 /* Chat */
 .chat-user {
   position   : relative;
